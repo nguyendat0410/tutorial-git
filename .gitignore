@@ -143,3 +143,5 @@ dist
 !.yarn/cache
 #.pnp.*
 !yarn.lock
+
+build.html
