@@ -2,7 +2,7 @@
 
 [I. GIT](#i-git)
 
-- [1. Sửa dụng `git cherry-pick`](#1-sử-dụng-git-cherry-pick)
+- [1. Sử dụng `git cherry-pick`](#1-sử-dụng-git-cherry-pick)
 
   - [a. Lấy 1 commit từ 1 branch (branch-feature-A) bỏ vào master](#a-lấy-1-commit-từ-1-branch-branch-feature-a-bỏ-vào-master)
 
