@@ -99,7 +99,7 @@ yarn init -2
 
 ## 2. [Config yarn 3 for vscode](https://yarnpkg.com/getting-started/editor-sdks)
 
-- **Bước 1**: Install the ZipFS extension, which is maintained by the Yarn team.
+- **Bước 1**: Install the [ZipFS](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) extension, which is maintained by the Yarn team.
 
 - **Bước 2**: Run the following command, which will generate a .vscode/settings.json file:
 
