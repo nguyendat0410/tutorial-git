@@ -2,7 +2,8 @@
 
 [I. GIT](#i-git)
 
-- [1. Sử dụng `git cherry-pick`](#1-sử-dụng-git-cherry-pick)
+- [1. Hiển thị tất cả commit ở các nhánh](#1-hiển-thị-tất-cả-commit-ở-các-nhánh)
+- [2. Sử dụng `git cherry-pick`](#2-sử-dụng-git-cherry-pick)
 
   - [a. Lấy 1 commit từ 1 branch (branch-feature-A) bỏ vào master](#a-lấy-1-commit-từ-1-branch-branch-feature-a-bỏ-vào-master)
 
@@ -20,7 +21,12 @@
 
 # I. GIT
 
-## 1. Sử dụng `git cherry-pick`
+## 1. Hiển thị tất cả commit ở các nhánh
+```
+git log --graph --all --decorate
+```
+
+## 2. Sử dụng `git cherry-pick`
 
 ```
 git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] [--ff]
