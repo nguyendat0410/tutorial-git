@@ -38,7 +38,9 @@
 
   - [c. 1 lần commit cho cả 2 branches](#c-1-lần-commit-cho-cả-2-branches)
 
-[II. YARN 3](#ii-yarn-3)
+- [5. Tip xoá nhiều nhánh](#5-tip-xoá-nhiều-nhánh)
+
+[II. YARN 3](#ii-dự-án-sample-yarn-3)
 
 - [1. Enable corepack](#1-enable-corepack)
 
@@ -229,7 +231,11 @@ git config --global user.username "your name"
 ### b. Nhớ tài khoản khi dùng http
 
 ```
+# Cài đặt mãi mãi
 git config --global credential.helper cache
+
+# Cài đặt 600 số giây = 5 phút
+git config --global credential.helper 'cache --timeout=600'
 
 git config credential.helper cache
 ```
@@ -379,7 +385,30 @@ git add .
 git commit
 ```
 
-# II. [YARN 3](https://yarnpkg.com/)
+## 5. Tip xoá nhiều nhánh
+
+**Window**
+```
+git checkout master
+
+# Xoá tất cả các nhánh ngoài nhánh đang focus
+git branch -D (git branch --list).trim()
+
+# Xoá nhánh với regex với từ: fix-
+git branch -D (git branch --list 'fix-*').trim()
+```
+
+**Linux | Macos**
+
+```
+# Xoá tất cả các nhánh ngoài nhánh đang focus
+git branch -D `git branch --list`
+
+# Xoá nhánh với regex với từ: fix-
+git branch -D `git branch | grep -E fix-*`
+```
+
+# II. Dự án Sample [YARN 3](https://yarnpkg.com/)
 
 ## 1. Enable corepack
 
