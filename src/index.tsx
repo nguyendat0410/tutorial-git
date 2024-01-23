@@ -15,7 +15,7 @@ import './public/style.css';
 const App = () => {
   return (
     <div className="main-content container">
-      <h1 className="font-bold">Hello World 2024 - new!</h1>
+      <h1 className="font-bold">Hello World 2024 !</h1>
       <div className="font-bold text-9xl text-orange-500">DEV</div>
     </div>
   );
