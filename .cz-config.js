@@ -2,7 +2,7 @@ module.exports = {
   types: [
     { value: 'feat', name: '✨ feat:\tMột tính năng mới' },
     { value: 'fix', name: '🐛 fix:\tMột bản sửa lỗi' },
-    { value: 'docs', name: '📝 📚 docs:\tThêm hoặc cập nhật tài liệu' },
+    { value: 'docs', name: '📝 docs:\tThêm hoặc cập nhật tài liệu' },
     {
       value: 'style',
       name: '💄 style:\tThêm hoặc cập nhật styles, ui hoặc ux',
@@ -39,9 +39,9 @@ module.exports = {
     { name: 'ui' },
     { name: 'android' },
     { name: 'ios' },
-    { name: 'home' },
-    { name: 'planner' },
-    { name: 'settings' },
+    { name: 'universal' },
+    { name: 'logic' },
+    { name: 'function' },
   ],
 
   messages: {
