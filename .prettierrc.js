@@ -7,4 +7,6 @@ module.exports = {
   trailingComma: 'all',
   printWidth: 120,
   jsxSingleQuote: false,
+  // endOfLine: 'auto',
+  useTabs: false,
 };
