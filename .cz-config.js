@@ -24,7 +24,7 @@ module.exports = {
       name: '🚚 chore:\tNhững thay đổi đối với quy trình xây dựng hoặc các công cụ phụ trợ\n\t\tvà các thư viện như tạo tài liệu',
     },
     { value: 'revert', name: '⏪️ revert:\tKhôi phục một commit trước đó' },
-    { value: ':construction: wip', name: '🚧 wip:\tCông việc đang được tiến hành' },
+    { value: 'wip', name: '🚧 wip:\tCông việc đang được tiến hành' },
     {
       value: 'build',
       name: '👷 build:\tThêm hoặc cập nhật liên quan đến quá trình xây dựng',
